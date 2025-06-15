@@ -20,3 +20,61 @@ body{
     background-color: #007bff;
     color: white;
 }
+
+.account nav{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+.account nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: color 0.3s;
+}
+
+.search_bar {
+    display: flex;
+    align-items: center;
+}
+
+.search_bar input[type="search"] {
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu nav ul li {
+    margin-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.menu nav ul li a:hover {
+    color: darken(#007bff, 10%);
+}
