@@ -12,6 +12,22 @@ body{
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+.l1{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aquamarine;
+}
+
+.l2{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: red;
+    font-display: 58px;
+    font-style: italic;
+}
+
 .top{
     display: flex;
     justify-content: space-between;
@@ -37,7 +53,8 @@ body{
 
 .search_bar {
     display: flex;
-    align-items: center;
+    bord
+
 }
 
 .search_bar input[type="search"] {
@@ -77,4 +94,8 @@ body{
 
 .menu nav ul li a:hover {
     color: darken(#007bff, 10%);
+}
+
+.live{
+    color: rgb(255, 12, 12);
 }
