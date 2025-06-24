@@ -43,6 +43,10 @@ body {
     font-weight: 700;
 }
 
+.logo a{
+    text-decoration: none;
+}
+
 .l1 {
     color: var(--primary);
     font-style: italic;
